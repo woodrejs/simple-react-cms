@@ -6,6 +6,7 @@ import { ThemeProvider } from "styled-components";
 import "./index.css";
 // tmp
 import Input from "./app/Components/Input";
+import Button from "./app/Components/Button";
 
 //
 
@@ -35,7 +36,7 @@ ReactDOM.render(
               padding: "10px",
             }}
           >
-            <Input type="select" />
+            <Button text="button" />
           </div>
         </Dashboard>
       </ThemeProvider>
