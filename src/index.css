@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+/*fonts*/
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(./app/Assets/Fonts/Montserrat-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(./app/Assets/Fonts/Montserrat-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  transform: rotate(90deg);
+  height: 80px;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
