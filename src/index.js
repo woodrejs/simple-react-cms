@@ -7,6 +7,7 @@ import "./index.css";
 // tmp
 import Input from "./app/Components/Input";
 import Button from "./app/Components/Button";
+import File from "./app/Components/File";
 
 //
 
@@ -36,7 +37,7 @@ ReactDOM.render(
               padding: "10px",
             }}
           >
-            <Button text="button" />
+            <File name="file name" />
           </div>
         </Dashboard>
       </ThemeProvider>
